@@ -146,3 +146,7 @@ body[data-aos-duration='5000'] [data-aos],
     font-size: 1.5em;
     color: white;
 }
+.small-img{
+    height: 70px;
+    width: auto;
+}
