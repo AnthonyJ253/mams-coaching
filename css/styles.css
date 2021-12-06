@@ -142,3 +142,7 @@ body[data-aos-duration='5000'] [data-aos],
     height: 20%;
     width: 20%;
 }
+.values{
+    font-size: 1.5em;
+    color: white;
+}
