@@ -150,3 +150,8 @@ body[data-aos-duration='5000'] [data-aos],
     height: 70px;
     width: auto;
 }
+.headshot{
+    width: 300px;
+    height: auto;
+    border: #2d2e2e solid 10px;
+}
