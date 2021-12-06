@@ -155,3 +155,6 @@ body[data-aos-duration='5000'] [data-aos],
     height: auto;
     border: #2d2e2e solid 10px;
 }
+.bold-font p{
+    font-size: 1.5em;
+}
