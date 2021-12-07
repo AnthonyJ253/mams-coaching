@@ -157,7 +157,12 @@ body[data-aos-duration='5000'] [data-aos],
 .headshot{
     width: auto;
     height: 400px;
-    border: #2d2e2e solid 10px;
+    border: #000000 solid 10px;
+}
+.headshot-2{
+    width: auto;
+    height: 300px;
+    border: #ffffff solid 10px;
 }
 .bold-font p{
     font-size: 1.5em;
