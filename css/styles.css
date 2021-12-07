@@ -159,10 +159,11 @@ body[data-aos-duration='5000'] [data-aos],
     height: 400px;
     border: #000000 solid 10px;
 }
-.headshot-2{
-    width: auto;
-    height: 300px;
-    border: #ffffff solid 10px;
+
+.headshot-3{
+    width: 500px;
+    height: auto;
+    border: solid black 10px;
 }
 .bold-font p{
     font-size: 1.5em;
