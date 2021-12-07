@@ -67,10 +67,13 @@ body{
     background-color: #2d2e2e;
     color: #AAA492;
 }
+<<<<<<< HEAD
 .break-4{
     background-color: rgb(70, 70, 70);
     color: #AAA492;
 }
+=======
+>>>>>>> d43ca063c52c2c995af65bcd5431de55f240ce41
 .card{
     border: none;
     border-radius: 0;
@@ -155,13 +158,21 @@ body[data-aos-duration='5000'] [data-aos],
     width: auto;
 }
 .headshot{
+<<<<<<< HEAD
     width: auto;
     height: 400px;
+=======
+    width: 300px;
+    height: auto;
+>>>>>>> d43ca063c52c2c995af65bcd5431de55f240ce41
     border: #2d2e2e solid 10px;
 }
 .bold-font p{
     font-size: 1.5em;
+<<<<<<< HEAD
 }
 .coaching {
     font-size: 1.25em;
+=======
+>>>>>>> d43ca063c52c2c995af65bcd5431de55f240ce41
 }
