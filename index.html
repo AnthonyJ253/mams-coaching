@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -39,8 +39,6 @@
         </div>
       </nav>
 
-      <div class="container" id="root"></div>
-
       <div class="container mt-5">
           <div class="row">
               <div class="col-12 d-flex justify-content-center align-items-center">
@@ -49,14 +47,13 @@
           </div>
       </div>
 
-    <div id="shoeModal" class="modal fade" role="dialog">
+    <div id="signUpModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h2>Schedule Now!</h2>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-
                 <div class="modal-body">
                     <div class="container">
                         <h1>Contact Information</h1>
@@ -84,10 +81,11 @@
                         <div class="form-group">
                             <label for="services">Service</label>
                             <select class="form-control" name="services" id="services">
+                                <option value="General Coaching">General Coaching</option>
                                 <option value="Visionary">The Visionary</option>
-                                <option value="Visionary">Goal Glow</option>
-                                <option value="Visionary">Wellness Living</option>
-                                <option value="Visionary">Mam to Mam</option>
+                                <option value="Goal Glow">Goal Glow</option>
+                                <option value="Wellness Living">Wellness Living</option>
+                                <option value="Mam to Mom">Mam to Mom</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -111,7 +109,7 @@
             </div>
 
             <div class="col">
-                <button class="btn btn-info btn-lg rounded-0" role="button" data-toggle="modal" data-target="#shoeModal">Schedule Now</button>
+                <button class="btn btn-info btn-lg rounded-0" role="button" data-toggle="modal" data-target="#signUpModal">Schedule Now</button>
             </div>
         </div>
     </div>
@@ -131,19 +129,29 @@
         </div>
     </div>
 
-    <div id="service" class="container-fluid pt-4 mt-lg-5 backdrop-2">
-
-        <div class="row">
-            <div class="col-12 mb-5">
-                <h1 class="services">Signature Services</h1>
+    <div id="service"  class="container-fluid mt-5">
+        <div class="row backdrop">
+            <div class="col-12">
+                <h1 class="text-black text-center">SERVICES</h1>
             </div>
         </div>
+    </div>
 
-
+    <div class="container-fluid  pt-4 mt backdrop-2">
+        <div class="row d-flex mb-3justify-content-center flex-column">
+            <div class="col">
+                <h1 class="text-white services mb-3">General Coaching</h1>
+            </div>
+            <div class="col-6 offset-lg-3 text-black text-center break-4 p-5 mb-5 coaching text-white">
+                <p >Coach women to connect to their inner wisdom, identify obstacles that are keeping them stuck, assist them with finding motivation, pinpoint any resistance to change and create actionable steps.</p>
+            </div>
+        </div>
         <div class="row">
-
+            <div class="col-12 mb-2">
+                <h1 class="text-black services text-center mb-3">Signature Services</h1>
+            </div>
             <div class="col-lg-3 mb-3" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-                <div class="card">
+                <div class="card card-hov">
                     <div class="card-title text-white text-center mt-4">
                         <h1>The Visionary</h1>
                     </div>
@@ -159,7 +167,7 @@
             </div>
 
             <div class="col-lg-3" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
-                <div class="card">
+                <div class="card card-hov">
                     <div class="card-title text-white text-center mt-4">
                         <h1>Goal Glow</h1>
                     </div>
@@ -176,7 +184,7 @@
 
 
             <div class="col-lg-3" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
-                <div class="card">
+                <div class="card card-hov">
                     <div class="card-title text-white text-center mt-4">
                         <h1>Wellness Living</h1>
                     </div>
@@ -192,7 +200,7 @@
             </div>
 
             <div class="col-lg-3" data-aos="fade-left" data-aos-duration="1100" data-aos-once="true">
-                <div class="card">
+                <div class="card card-hov">
                     <div class="card-title text-white text-center mt-4">
                         <h1>Mam to Mom</h1>
                     </div>
@@ -201,22 +209,21 @@
                     </div>
                     <div class="card-footer">
                         <p class="text-white">
-                            Work with amazing moms to find and maintain their identities as an individual, to not lose themselves in their families lives while continuing to be a wonderful mother. Get rid of mom guilt and establish an identity outside of motherhood.  
+                            Work with amazing moms to find and maintain their identities as an individual, to not lose themselves in their family's lives while continuing to be a wonderful mother. Get rid of mom guilt and establish an identity outside of motherhood.  
                         </p>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
-    </div>
+    
 
-    <div class="container-fluid break pt-5 pb-5">
+    <div class="container-fluid break pt-5">
         <div class="row">
-            <div class="col d-flex justify-content-center align-items-center flex-column">
+            <div class="col d-flex justify-content-center align-items-center flex-column pb-5">
                 <h1>TAKE THE NEXT STEP TOWARD YOUR NEW LIFE.</h1>
-                <button class=" mt-4 btn btn-dark rounded-0 btn-lg" role="button" data-toggle="modal" data-target="#shoeModal">Start Now</button>
+                <button class=" mt-4 btn btn-dark rounded-0 btn-lg" role="button" data-toggle="modal" data-target="#signUpModal">Start Here</button>
             </div>
         </div>
     </div>
@@ -224,11 +231,8 @@
     <div id="about" class="container mt-lg-5">
         <div class="row">
             
-            <div class="col-lg-2 embed-responsive embed-responsive-1by1">
+            <div class="col-lg-2 offset-2 embed-responsive embed-responsive-1by1">
                 <video autoplay loop muted class="embed-responsive-item" src="images/Untitled-3.mp4"></video>
-            </div>
-            <div class="col-lg-2 embed-responsive embed-responsive-1by1">
-                <video autoplay loop muted class="embed-responsive-item" src="images/Untitled 3.mp4"></video>
             </div>
             <div class="col-lg-2 embed-responsive embed-responsive-1by1">
                 <video autoplay loop muted class="embed-responsive-item" src="images/Untitled-2.mp4"></video>
@@ -240,22 +244,131 @@
         
         <div class="row backdrop mt-lg-5">
             <div class="col text-black">
-                <p>
-                    I’m a passionate woman with family, career and fitness aspirations. I believe in achieving happier lives through making meaningful choices, work-life balance and healthy lifestyles. My passion is to help people to grow to their true potential. 
+                <p class="mb-5">
+                    <img class="float-left img-fluid headshot mb-4 mr-4" src="images/IMG_3282.jpg" alt=""> I’m a passionate woman with family, career and fitness aspirations. I believe in achieving happier lives through making meaningful choices, work-life balance and healthy lifestyles. My passion is to help people grow to their true potential. 
                 </p>
-                <p>    
-                    I’m a wife and mother of 3 amazing sons, certified public accountant, an executive at a Fortune 300 company, life coach, yoga instructor and powerlifter. I juggle a lot but my family, career and fitness make me happy, provides fulfillment and in many ways provides the life balance I need. My family helps me balance my dedication to career, fitness helps me get clarity in mind to balance my career and family, and my career allows me to support both my family and fitness aspirations. I wasn’t always able to find balance in my aspirations and at certain points in my life I didn’t even know what my aspirations were as I couldn’t navigate through all my thoughts and desires. I’ve been lost many times in my life, as a young wife and mother I got lost in building my purpose around my family, in my career I’ve gotten lost trying to cater toward others expectations and not going for the job opportunities I really wanted because I felt I wasn’t ready or was too afraid to ask for what I deserved, and there were times I lost my connection with fitness because of outside pressures and time constraints. 
+                <p class="mb-5">    
+                    I’m a wife and mother of 3 amazing sons, certified public accountant, an executive at a Fortune 300 company, life coach, yoga instructor and powerlifter. I juggle a lot but my family, career and fitness makes me happy, provides fulfillment and in many ways provides the life balance I need. My family helps me balance my dedication to career. Fitness helps me get clarity in mind to balance my career and family. My career allows me to support both my family and fitness aspirations. I wasn’t always able to find balance in my aspirations and at certain points in my life I didn’t even know what my aspirations were as I couldn’t navigate through all my thoughts and desires. I’ve been lost many times in my life, as a young wife and mother I got lost in building my purpose around my family, in my career I’ve gotten lost trying to cater toward others expectations and not going for the job opportunities I really wanted because I felt I wasn’t ready or was too afraid to ask for what I deserved, and there were times I lost my connection with fitness because of outside pressures and time constraints. 
                 </p>
-                <p>
-                    I’m fortunate to be able to have learned from these challenging times in my life and that I made meaningful choices, which has allowed me to feel amazing in my family relationships, career, body and mind. I want to my share experiences and knowledge with other women and empower them to do the same! As a coach I want to be an unbiased brainstorming partner. I want to help women navigate their thoughts and desires to make purposeful decisions and actions that align with their aspirations in life. I want each woman I coach to see their true potential while being their authentic selves, and then unlock it for the world to see and benefit from.
+                <p class="mb-5">
+                    <img class="img-fluid headshot float-right mr-4" src="images/IMG_0683.jpg" alt=""> I’m fortunate to be able to have learned from these challenging times in my life and that I made meaningful choices, which has allowed me to feel amazing in my family relationships, career, body and mind. I want to share my experiences and knowledge with other women and empower them to do the same! As a coach I want to be an unbiased brainstorming partner. I want to help women navigate their thoughts and desires to make purposeful decisions and actions that align with their aspirations in life. I want each woman I coach to see their true potential while being their authentic selves, and then unlock it for the world to see and benefit from.
 
                 </p>
             </div>
         </div>
     </div>
 
+    <div class="container-fluid backdrop-2 mt-5 ">
+        <h1 class="text-center break-3 mb-5">Testimonials </h1>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-2">
+                <div class="card card-light ">
+                    <div class="card-body break-3">
+                        <img class="img-fluid quote mb-5" src="images/quote.png" alt="">
+                        <p>"Working with Angela helped me advance my career. I’ve received two promotions since working with her. I feel more confident and the sky is the limit for me now."   </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card card-light">
+                    <div class="card-body break-3">
+                        <img class="img-fluid quote mb-5" src="images/quote.png" alt="">
+                        <p>"Angela is such a great coach. I connected with her right away. Being a mom is so challenging and I can’t thank her enough for all she has helped me work through. "
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card card-light">
+                    <div class="card-body break-3">
+                        <img class="img-fluid quote mb-5" src="images/quote.png" alt="">
+                        <p>"I’ve gained more insight and prospective working with Angela. I’m a better person because of coaching." 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card card-light">
+                    <div class="card-body break-3">
+                        <img class="img-fluid quote mb-5" src="images/quote.png" alt="">
+                        <p>  "Every time I meet with Angela I learn something new about myself. She helped me transition to a new role and continues to coach me through the transition."    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card card-light">
+                    <div class="card-body break-3">
+                        <img class="img-fluid quote mb-5" src="images/quote.png" alt="">
+                        <p>  "I really value Angela's feedback, questions and coaching. I never feel like she is just telling me what she thinks I want hear and that speaks volumes to me!"    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container break pt-5">
+        <h1 class="text-center mb-5">Core Values</h1>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-2">
+                <h1 class="values mb-5 ml-3">Integrity</h1>
+                <img class="small-img mb-5 ml-4" src="images/north.png" alt="">
+                <p>Say what we do and do what we say.  Do the right thing even when no one is watching. </p>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="values mb-5">Confidentiality</h1>
+                <img class="small-img mb-5 ml-4" src="images/confidential.png" alt="">
+                <p>Protect our client's information the same way we protect our own. Hold ourselves accountable to a high confidentiality standard to create a safe and open environment for real conversations.  </p>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="values mb-4 ml-3">Service Excellence</h1>
+                <img class="small-img mb-5 ml-4" src="images/global-services.png" alt="">
+                <p>Dedicated to providing quality customer service and passionate about providing a meaningful and supporting experience.   </p>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="values mb-5">Curiosity</h1>
+                <img class="small-img mb-5 ml-4" src="images/man-thinking.png" alt="">
+                <p>Curious about our client’s backgrounds, needs and desires to help them navigate to their full potential. </p>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="values mb-5">Diversity</h1>
+                <img class="small-img mb-5 ml-4" src="images/together.png" alt="">
+                <p>Strive to have both diversity in thought and mind.  </p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-5 pb-5">
+            <div class="col-lg-2">
+                <h1 class="values mb-5 ml-3">Respect</h1>
+                <img class="small-img mb-5 ml-4" src="images/respect.png" alt="">
+                <p>Respect and value all individuals. Recognize and support the need for both diversity and belonging as a foundation for mutual respect.  </p>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="values mb-3 ml-3">Results Oriented</h1>
+                <img class="small-img mb-4 ml-4" src="images/notepad.png" alt="">
+                <p class="mt-4">Strive to provide optimal results. Committed and dedicated to provide the best service and results to our clients. </p>
+            </div>
+            <div class="col-2">
+                <h1 class="values mb-5 ml-3">Empathy</h1>
+                <img class="small-img mb-5 ml-4" src="images/empathy.png" alt="">
+                <p>Connect with our clients on a deeper level. Everyone’s worldview is different based on experiences and we want to learn about each client’s views and see in the beauty in it. </p>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="values mb-5">Compassion</h1>
+                <img class="small-img mb-5 ml-4" src="images/compassion.png" alt="">
+                <p>Care for our clients and take time to understand our clients to gain clarity to serve them better. </p>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="values mb-5">Adaptability</h1>
+                <img class="small-img mb-5 ml-4" src="images/adaptation.png" alt="">
+                <p>Adaptable to changes to help support our client's visions as they become clearer. </p>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center flex-column mt-5">
+                <a href="mailto:Angela@mamcoaching.com">Email: Angela@mamcoaching.com</a>
+            </div>
             <div class="col mt-5 text-center">
                 <h4>Copyright 2021</h4>
             </div>
@@ -268,15 +381,15 @@
     <script>
       AOS.init();
     </script>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
      <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
     <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
     <!-- Load our React component. -->
     <script src="./index.js"></script>

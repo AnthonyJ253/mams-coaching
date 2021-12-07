@@ -1,7 +1,7 @@
 {
-  "name": "nucampsite",
+  "name": "mam-coaching",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site NuCamp.",
+  "description": "mam coaching life coaching site",
   "main": "index.html",
   "scripts": {
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
@@ -29,15 +29,12 @@
     "usemin-cli": "^0.6.0"
   },
   "dependencies": {
-    "bootstrap": "^4.6.1",
+    "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "imagemin-gifsicle": "^6.0.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
-    "react": "15.6.1",
-    "react-dom": "15.6.1",
     "uuid": "^7.0.3"
-  },
-  "repository": "https://github.com/AnthonyJ253/mams-coaching.git"
+  }
 }
